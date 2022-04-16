@@ -13,9 +13,10 @@
             "16": "/Images/16.png",
             "48": "/Images/16.png",
             "128": "/Images/16.png"
-
         }
-
+    },
+    "background": {
+        "service_worker": "background.js"
     },
     "content_scripts": [{
         "matches": ["https://www.google.com/*"],
