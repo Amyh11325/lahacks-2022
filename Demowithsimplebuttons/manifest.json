@@ -23,5 +23,6 @@
         "128": "./Images/download.png"
 
     },
-    "permissions": ["storage", "activeTab", "scripting"]
+    "permissions": ["storage", "activeTab", "scripting"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

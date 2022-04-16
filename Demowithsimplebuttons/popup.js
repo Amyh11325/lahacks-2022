@@ -9,6 +9,7 @@ chrome.storage.sync.get("color", ({ color }) => {
 });
 
 function handleButtonClick(event) {
+    chrome.tabs.create({ url: "http://localhost:3000" });
     const current = event.target.parentElement.querySelector(`.${selectedClassName}`);
     if (current && current !== event.target) {
         current.classList.remove(selectedClassName);
