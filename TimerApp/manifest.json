@@ -1,0 +1,20 @@
+{
+    "icons": {
+        "16": "./Images/diangun.jpg",
+        "32": "./Images/diangun.jpg",
+        "48": "./Images/diangun.jpg",
+        "128": "./Images/diangun.jpg"
+    },
+    "name": "Break Timer",
+    "description": "A timer for break intervals.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "persistent": true,
+        "scripts": ["./js/main.js"]
+    },
+    "browser_action": {
+        "default_popup": "./index.html",
+        "default_icon": "./Images/diangun.jpg"
+    }
+}
